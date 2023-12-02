@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70362992B1BB6F300219AB4 /* Ball.scn in Resources */ = {isa = PBXBuildFile; fileRef = F70362982B1BB6F300219AB4 /* Ball.scn */; };
+		F703629B2B1BB84B00219AB4 /* tree.scn in Resources */ = {isa = PBXBuildFile; fileRef = F703629A2B1BB84B00219AB4 /* tree.scn */; };
+		F703629D2B1BBA6D00219AB4 /* MainScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = F703629C2B1BBA6D00219AB4 /* MainScene.scn */; };
 		F73B7B002B11F6CC00F3186B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B7AFF2B11F6CC00F3186B /* AppDelegate.swift */; };
 		F73B7B042B11F6CC00F3186B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73B7B032B11F6CC00F3186B /* GameViewController.swift */; };
 		F73B7B072B11F6CC00F3186B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73B7B052B11F6CC00F3186B /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70362982B1BB6F300219AB4 /* Ball.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Ball.scn; sourceTree = "<group>"; };
+		F703629A2B1BB84B00219AB4 /* tree.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tree.scn; sourceTree = "<group>"; };
+		F703629C2B1BBA6D00219AB4 /* MainScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = MainScene.scn; sourceTree = "<group>"; };
 		F73B7AFC2B11F6CC00F3186B /* SceneShere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneShere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F73B7AFF2B11F6CC00F3186B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F73B7B032B11F6CC00F3186B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +45,8 @@
 		F73B7AF32B11F6CB00F3186B = {
 			isa = PBXGroup;
 			children = (
+				F703629C2B1BBA6D00219AB4 /* MainScene.scn */,
+				F70362982B1BB6F300219AB4 /* Ball.scn */,
 				F73B7AFE2B11F6CC00F3186B /* SceneShere */,
 				F73B7AFD2B11F6CC00F3186B /* Products */,
 			);
@@ -61,6 +69,7 @@
 				F73B7B052B11F6CC00F3186B /* Main.storyboard */,
 				F73B7B082B11F6D100F3186B /* Assets.xcassets */,
 				F73B7B0A2B11F6D100F3186B /* LaunchScreen.storyboard */,
+				F703629A2B1BB84B00219AB4 /* tree.scn */,
 			);
 			path = SceneShere;
 			sourceTree = "<group>";
@@ -124,6 +133,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F73B7B0C2B11F6D100F3186B /* LaunchScreen.storyboard in Resources */,
+				F70362992B1BB6F300219AB4 /* Ball.scn in Resources */,
+				F703629D2B1BBA6D00219AB4 /* MainScene.scn in Resources */,
+				F703629B2B1BB84B00219AB4 /* tree.scn in Resources */,
 				F7F515CA2B164F9500C377EF /* art.scnassets in Resources */,
 				F73B7B092B11F6D100F3186B /* Assets.xcassets in Resources */,
 				F73B7B072B11F6CC00F3186B /* Main.storyboard in Resources */,
